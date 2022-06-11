@@ -6,7 +6,7 @@ $directories = "ls C:\temp\" | WHERE -Property Attributes -EQ "Directory" #fill 
 foreach($file in $files){
     #check every directory
     foreach($directory in $directories){
-        if(Test-Path -Path "C:\temp\$directory\$file") #fill in your own path (C:\temp\...)
+        if(Test-Path -Path "C:\temp\$directory\$file") #fill in your own path (...\$directory\$file)
         {
             Add-Content "C:\delete.txt" "$file" #write down files
         }  
