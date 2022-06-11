@@ -1,17 +1,9 @@
-# PS-Script_DeleteDuplicates
-PowerShell Script to write down files that exist twice and another to delete these.
-<# 
-    Mike Dätwyler
-    10.06.2022
+<h1>PS-Script_DeleteDuplicates</h1>
 
-    PS-Script to delete files, that exists twice in your main-folder. You should use the writeDownFiles.ps1 first to write down all the files.
-    e.g.:
-            -videos-folder
-                --folder1
-                  ---file1    !
-                --folder2
-                  ---file2    !
-                --file3
-                --file2       !
-                --file1       !
-#>
+In this repo you'll find two PowerShell scripts, one to write down files that exist twice and another one to delete these.
+<br>
+<br>
+<h2>Use-Case</h2>
+![image](https://user-images.githubusercontent.com/74704796/173205285-68bc4c52-5d90-4bb0-afa8-09dc06065b44.png)
+<br>
+Here you can see that the _mountain.png_ and the _porsche.png_ file are present in their subfolders (cars/landscapes) but also in the main folder _photos_.
